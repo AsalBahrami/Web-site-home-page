@@ -1,0 +1,137 @@
+.main{
+  max-width: 1300px;
+  min-width: 720px;
+  width: 1000px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border-bottom: none!important;
+  border: 6px solid #000;
+}
+
+#TB{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 150px;}
+
+/* input[type=text]{  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  box-sizing: 2px;
+  border: 2px solid dimgrey;
+  border-radius: 4px;
+  font-size: 16px;
+  /* padding:12px 20px 12px 40px;  */
+  /* position: relative;
+  left: 85%;} */
+/* input[type=text]:focus {
+  width: 25%; }*/
+
+input[type=text]{
+  border: 2px solid silver;
+  font-family: 'PT Mono',monospace;
+  border-radius: 7px;
+  position: relative;
+  left: 83%;
+  cursor:text;
+}
+
+input[type=text]:focus{
+  transition: border-color 0.3s ease;
+  border-color: dimgrey;
+}
+
+.ul1{
+  padding:5px 15px 5px 15px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: silver;
+  text-align: center;
+}
+
+li{
+  font-family: 'PT Mono', monospace;
+  display: inline;
+  margin-right: 50px;
+  text-align: center;
+}
+#Home{color: black; text-decoration: none;}
+#Home:hover{color:dimgrey;}
+
+#Albums{color: black; text-decoration:none;}
+#Albums:hover{color: dimgrey;}
+
+#About{color: black; text-decoration: none;}
+#About:hover{color: dimgrey;}
+
+#Contact{color: black; text-decoration: none;}
+#Contact:hover{color: dimgrey;}
+
+ #Ringo{width: 200px;
+ height: 270px;}
+
+ #George{width: 200px;
+ height: 270px;
+margin-left:-5px}
+
+ #John{width: 200px;
+ height: 270px;
+margin-left: -5px}
+
+ #Paul{width: 200px;
+ height: 270px;
+margin-left: -5px;}
+
+ .pbox{display: inline;
+ margin-left: auto;
+ margin-right: auto;
+ width: 300px;
+ height: 300px;} 
+p{
+font-family: 'PT Mono', monospace;
+text-align: center;
+font-size:16px;
+}
+.pbox{ position: relative;
+  left:100px;}
+
+.quote{text-align: center;
+
+    /* background-color: Gainsboro ; */
+    background-color: white;
+    max-width: 1300px;
+    min-width: 720px;
+    width: 1000px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    margin-top: -10px;
+    border: 6px solid #000;
+    border-left-color: #000;
+    border-right-color: #000;
+    border-top: none !important;
+    box-shadow: 0px 0 10px Gainsboro;
+}
+.quote p{font-size: 13px;}
+/* #Instagram{list-style-image: url("https://cdn2.iconfinder.com/data/icons/harmonicons-04/64/instagram-512.png");} */
+
+footer{
+background-color: white;
+max-width: 1300px;
+min-width: 720px;
+width: 1000px;
+margin: 10px auto 10px auto;
+padding: 20px;
+margin-top: -10px;
+border: 6px solid #000;
+border-left-color: #000;
+border-right-color: #000;
+border-top: none !important;
+box-shadow: 0px 0 10px Gainsboro;
+}
+
+.socialMedia{position: relative;
+color: white;}
+#facebookimg{width: 20px;height: 20px;}
+footer p{color: white;
+position: relative;
+bottom: 20px;}
